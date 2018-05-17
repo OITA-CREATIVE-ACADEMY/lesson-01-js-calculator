@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lesson-01-JS-Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>電卓アプリ</h1>
+
+    <!-- 足し算 -->
+    <div>
+      <input type="text" id="input-1-plus">
+      <span>+</span>
+      <input type="text" id="input-2-plus">
+      <span>=</span>
+      <input type="text" id="result-plus" disabled>
+      <button onClick="plus()">たす</button>
+    </div>
+
+    <!-- 引き算 -->
+    <div>
+      <input type="text" id="input-1-minus">
+      <span>-</span>
+      <input type="text" id="input-2-minus">
+      <span>=</span>
+      <input type="text" id="result-minus" disabled>
+      <button onClick="minus()">ひく</button>
+    </div>
+
+    <!-- かけ算 -->
+    <div>
+      <input type="text" id="input-1-multipliedBy">
+      <span>×</span>
+      <input type="text" id="input-2-multipliedBy">
+      <span>=</span>
+      <input type="text" id="result-multipliedBy" disabled>
+      <button onClick="multipliedBy()">かける</button>
+    </div>
+
+    <!-- 割り算 -->
+    <div>
+      <input type="text" id="input-1-dividedBy">
+      <span>÷</span>
+      <input type="text" id="input-2-dividedBy">
+      <span>=</span>
+      <input type="text" id="result-dividedBy" disabled>
+      <button onClick="dividedBy()">わる</button>
+    </div>
+  </div>
+</body>
+
+</html>
