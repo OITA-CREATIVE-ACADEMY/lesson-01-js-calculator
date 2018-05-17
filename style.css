@@ -1,0 +1,13 @@
+.container {
+  padding: 0 20%;
+}
+
+span {
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+}
+
+button {
+  width: 60px;
+}
